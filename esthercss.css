@@ -1,0 +1,84 @@
+.logo{
+width: 40px;
+height: 40px;
+margin-right: auto;
+margin-top: 10px;
+border-radius: 10%;
+}
+.container{
+    list-style: none;
+    display: flex;
+    background-color: brown;
+    font-size: 40px;
+}
+.items{
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.items a{
+    color: azure;
+    text-decoration: none;
+}
+.items a:hover {
+    color: yellow;
+}
+button{
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        opacity: 0.9;
+        font-size: large;
+}
+      
+    button:hover {
+        opacity: 1;
+      }
+.intro{
+    background: url(https://images.unsplash.com/photo-1585870720832-ff6984746730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: contain;
+    height: 500px;
+color: #524587;
+    
+
+}
+
+img{
+    width: 6%;
+     margin: 1%; 
+    }
+
+    nav {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5em;
+          text-transform: uppercase;
+          border-bottom: 2px solid #f1f1f1;
+          width: 30%;
+          margin-left: calc(10%/6);
+          padding: 1.2em 0;
+      }
+.testimoni{
+    font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+          text-transform: uppercase;
+          border-bottom: 2px solid #f1f1f1;
+          width: 30%;
+          margin-left: calc(10%/6);
+          padding: 1.2em 0;
+          display: inline-block;
+          font-style: arvo;
+}
+.cont{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+      text-transform: uppercase;
+      border-bottom: 2px solid #f1f1f1;
+      width: 30%;
+      margin-left: calc(10%/6);
+      padding: 1.2em 0;
+      display: inline-block;
+      font-style: arvo;
+}
